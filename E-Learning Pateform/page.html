@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Learning Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <h1>E-Learning Platform</h1>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Courses</a></li>
+                    <li><a href="#">My Courses</a></li>
+                    <LI>Material Access</LI>
+                    <li><a href="#">Progress</a></li>
+                    <li><a href="#">Logout</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Learn Anything, Anytime, Anywhere!</h2>
+        <p>Start your journey of knowledge discovery today.</p>
+    </section>
+    
+    <main>
+        <div class="container">
+            <h2>Available Courses</h2>
+            <div id="course-container" class="grid-container"></div>
+        </div>
+    </main>
+
+    <div id="enroll-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Enroll in Course</h2>
+            <p>Are you sure you want to enroll in this course?</p>
+            <button id="enroll-btn">Enroll</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
